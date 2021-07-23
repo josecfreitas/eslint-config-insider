@@ -1,0 +1,29 @@
+{
+  "name": "@josecfreitas/eslint-config-insider",
+  "version": "1.0.0",
+  "description": "Standard configurations for Eslint and Prettier",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecfreitas/eslint-config-insider.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "author": "José Carlos de Freitas and Tadeu Tupinambá",
+  "license": "MIT",
+  "homepage": "https://github.com/josecfreitas/eslint-config-insider#readme",
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
+  }
+}

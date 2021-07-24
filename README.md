@@ -7,18 +7,18 @@ Install this package:
 
 NPM
 ```bash
-npm install @josecfreitas/eslint-config-insider -D
+npm install @josecfreitas/eslint-config-insider eslint@^7.31.0 eslint-config-airbnb-base@^14.2.1 eslint-config-prettier@^8.3.0 eslint-plugin-import@^2.23.4 eslint-plugin-prettier@^3.4.0 prettier@^2.3.2 -D
 ```
 
 YARN
 ```bash
-yarn add @josecfreitas/eslint-config-insider -D
+yarn add @josecfreitas/eslint-config-insider eslint@^7.31.0 eslint-config-airbnb-base@^14.2.1 eslint-config-prettier@^8.3.0 eslint-plugin-import@^2.23.4 eslint-plugin-prettier@^3.4.0 prettier@^2.3.2 -D
 ```
 
 Then, create a .eslintrc.js (or .eslintrc.json) file in the root of your project's directory and put this:
 ```json
 {
-  "extends": ["@josecfreitas/eslint-config-insider"],
+  "extends": ["@josecfreitas/eslint-config-insider"]
 }
 ```
 
@@ -36,7 +36,7 @@ YARN
 yarn add @typescript-eslint/parser @typescript-eslint -D
 ```
 
-Add this to your .eslintrc file:
+Update your .eslintrc file to look like this:
 ```json
 {
   "extends": ["@josecfreitas/eslint-config-insider"],

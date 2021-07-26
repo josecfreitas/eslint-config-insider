@@ -3,23 +3,23 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["airbnb-base", "prettier"],
-  plugins: ["prettier"],
+  extends: ['airbnb-base', 'prettier'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: "module",
+    sourceType: 'module',
   },
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         semi: true,
-        singleQuote: false,
+        singleQuote: true,
         printWidth: 120,
         tabWidth: 2,
-        trailingComma: "all",
-        arrowParens: "avoid",
-        endOfLine: "auto",
+        trailingComma: 'all',
+        arrowParens: 'avoid',
+        endOfLine: 'auto',
       },
     ],
   },

@@ -1,6 +1,6 @@
 {
   "name": "@josecfreitas/eslint-config-insider",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Standard configurations for Eslint and Prettier",
   "main": "index.js",
   "repository": {

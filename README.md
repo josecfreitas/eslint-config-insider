@@ -23,16 +23,18 @@ Install the following dependencies:
 
 NPM
 ```bash
-npm install @typescript-eslint/parser @typescript-eslint -D
+npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 ```
 
 Update your .eslintrc file to look like this:
 ```json
 {
-  "extends": ["@josecfreitas/eslint-config-insider"],
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@josecfreitas/eslint-config-insider"
+  ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "rules": {
-  }
+  "plugins": ["@typescript-eslint"]
 }
 ```
